@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     
     //Array to store the names of the countries that shuffles everytime the app starts
@@ -18,6 +19,7 @@ struct ContentView: View {
     @State private var scoreTitle=""        //Stating if answer is correct or not
     @State private var score=0              //Calculting the score of the player
     @State private var outcome="Let's Play!"
+    
     
     var body: some View {
         ZStack{
